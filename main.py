@@ -4,6 +4,7 @@ import hydra
 from omegaconf import DictConfig, OmegaConf
 
 
+
 # This automatically reads in the configuration
 @hydra.main(config_name='config')
 def go(config: DictConfig):
