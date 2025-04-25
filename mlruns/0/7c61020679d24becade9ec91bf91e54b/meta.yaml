@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/7c61020679d24becade9ec91bf91e54b/artifacts
+end_time: 1745280157063
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c61020679d24becade9ec91bf91e54b
+run_name: polite-mouse-65
+run_uuid: 7c61020679d24becade9ec91bf91e54b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745280153260
+status: 4
+tags: []
+user_id: trinaghosh

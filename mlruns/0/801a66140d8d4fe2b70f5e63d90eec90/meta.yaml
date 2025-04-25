@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/801a66140d8d4fe2b70f5e63d90eec90/artifacts
+end_time: 1745623552832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 801a66140d8d4fe2b70f5e63d90eec90
+run_name: big-shoat-419
+run_uuid: 801a66140d8d4fe2b70f5e63d90eec90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745623112623
+status: 4
+tags: []
+user_id: trinaghosh

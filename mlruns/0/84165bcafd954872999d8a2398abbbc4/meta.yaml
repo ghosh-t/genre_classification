@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/84165bcafd954872999d8a2398abbbc4/artifacts
+end_time: 1745280833333
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 84165bcafd954872999d8a2398abbbc4
+run_name: rumbling-bass-998
+run_uuid: 84165bcafd954872999d8a2398abbbc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745280490976
+status: 4
+tags: []
+user_id: trinaghosh

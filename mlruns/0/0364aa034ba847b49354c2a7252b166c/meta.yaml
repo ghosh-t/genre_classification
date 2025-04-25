@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/0364aa034ba847b49354c2a7252b166c/artifacts
+end_time: 1745622698563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0364aa034ba847b49354c2a7252b166c
+run_name: welcoming-cow-986
+run_uuid: 0364aa034ba847b49354c2a7252b166c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745622590410
+status: 4
+tags: []
+user_id: trinaghosh

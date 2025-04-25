@@ -1,12 +1,15 @@
 import mlflow
 import os
 import hydra
-from omegaconf import DictConfig, OmegaConf
+from omegaconf import DictConfig, OmegaConf, ListConfig
 
 
 # This automatically reads in the configuration
-@hydra.main(config_name='config')
+@hydra.main(config_path=".",config_name='config')
 def go(config: DictConfig):
+
+    print("Config loaded by Hydra:")
+    print(OmegaConf.to_yaml(config))
 
     # Setup the wandb experiment. All runs will be grouped under this name
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
@@ -20,7 +23,7 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
+        assert isinstance(config["main"]["execute_steps"], ListConfig)
         steps_to_execute = config["main"]["execute_steps"]
 
     # Download step
@@ -60,7 +63,7 @@ def go(config: DictConfig):
             "main",
             parameters = {
                 "reference_artifact": config["data"]["reference_dataset"],
-                "sample_artifact": "preprocesssed_data.csv:latest",
+                "sample_artifact": "preprocessed_data.csv:latest",
                 "ks_alpha": config["data"]['ks_alpha']
             }
         )
@@ -72,11 +75,11 @@ def go(config: DictConfig):
             os.path.join(root_path, "segregate"),
             "main",
             parameters = {
-                "input_artifact": "preprocesssed_data.csv:latest",
+                "input_artifact": "preprocessed_data.csv:latest",
                 "artifact_root": "data",
                 "artifact_type" : "segregated_data",
                 "test_size": config["data"]["test_size"],
-                "random_state": config["main"]["random_state"],
+                "random_state": config["main"]["random_seed"],
                 "stratify": config["data"]["stratify"]
 
             }
@@ -111,7 +114,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "evaluate"),
             "main",
             parameters = {
-                "model_export": f"{config["random_forest_pipeline"]["export_artifact"]}:latest",
+                "model_export": f"{config['random_forest_pipeline']['export_artifact']}:latest",
                 "test_data": "data_test.csv:latest"
             }
         )

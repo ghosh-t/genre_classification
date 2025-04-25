@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/ea56e2fac3a14eadaa4b92ab4d3ffd2b/artifacts
+end_time: 1745280254651
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea56e2fac3a14eadaa4b92ab4d3ffd2b
+run_name: bustling-hog-448
+run_uuid: ea56e2fac3a14eadaa4b92ab4d3ffd2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745280250788
+status: 4
+tags: []
+user_id: trinaghosh

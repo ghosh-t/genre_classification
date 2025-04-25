@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/6f2bc598ed9343ccbd7b6e02f0f84173/artifacts
+end_time: 1745624000762
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f2bc598ed9343ccbd7b6e02f0f84173
+run_name: aged-panda-735
+run_uuid: 6f2bc598ed9343ccbd7b6e02f0f84173
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745623599452
+status: 4
+tags: []
+user_id: trinaghosh

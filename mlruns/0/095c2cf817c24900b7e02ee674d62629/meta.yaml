@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/095c2cf817c24900b7e02ee674d62629/artifacts
+end_time: 1745622978437
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 095c2cf817c24900b7e02ee674d62629
+run_name: bright-colt-656
+run_uuid: 095c2cf817c24900b7e02ee674d62629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745622846701
+status: 4
+tags: []
+user_id: trinaghosh

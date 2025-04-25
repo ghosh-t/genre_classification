@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/a32e0e7c09f94171b0349bed3cc30bbd/artifacts
+end_time: 1745624359851
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a32e0e7c09f94171b0349bed3cc30bbd
+run_uuid: a32e0e7c09f94171b0349bed3cc30bbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745624339595
+status: 3
+tags: []
+user_id: trinaghosh

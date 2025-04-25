@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/3af00255e38c482a87efc6bf4667785c/artifacts
+end_time: 1745279841250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3af00255e38c482a87efc6bf4667785c
+run_name: adaptable-lynx-113
+run_uuid: 3af00255e38c482a87efc6bf4667785c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745279763019
+status: 4
+tags: []
+user_id: trinaghosh

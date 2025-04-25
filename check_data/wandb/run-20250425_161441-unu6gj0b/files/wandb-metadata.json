@@ -1,0 +1,54 @@
+{
+    "os": "macOS-14.2.1-x86_64-i386-64bit",
+    "python": "3.12.10",
+    "heartbeatAt": "2025-04-25T23:14:42.323646",
+    "startedAt": "2025-04-25T23:14:41.827980",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/trinaghosh/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:ghosh-t/genre_classification.git",
+        "commit": "a56739b57c635f0df4ee1811e48a7b15e8afd7df"
+    },
+    "email": null,
+    "root": "/Users/trinaghosh/genre_classification",
+    "host": "Trinas-MacBook-Air.local",
+    "username": "trinaghosh",
+    "executable": "/Users/trinaghosh/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/python3.12",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 13.41904067993164
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

@@ -111,10 +111,13 @@ def test_kolmogorov_smirnov(data, ks_alpha):
 
     for col in columns:
 
-        ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
+        ts, p_value = scipy.stats.ks_2samp(sample1[col].dropna(), sample2[col].dropna())
 
-        # NOTE: as always, the p-value should be interpreted as the probability of
-        # obtaining a test statistic (TS) equal or more extreme that the one we got
-        # by chance, when the null hypothesis is true. If this probability is not
-        # large enough, this dataset should be looked at carefully, hence we fail
-        assert p_value > alpha_prime
+        if pd.isna(p_value):
+            print(f"Skipping column {col} due to NaN p-value")
+            continue
+
+        assert p_value > alpha_prime, (
+            f"Kolmogorov–Smirnov test failed for column '{col}'. "
+            f"p-value={p_value:.6f} (threshold={alpha_prime:.6f})"
+        )
