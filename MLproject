@@ -1,4 +1,4 @@
-name: download_data
+name: genre_classification_prod
 conda_env: conda.yml
 
 entry_points:
