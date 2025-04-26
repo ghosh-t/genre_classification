@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trinaghosh/genre_classification/mlruns/0/13f9ba310f324822a97a7136bea56065/artifacts
+end_time: 1745626041901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13f9ba310f324822a97a7136bea56065
+run_name: marvelous-stork-809
+run_uuid: 13f9ba310f324822a97a7136bea56065
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745625925540
+status: 3
+tags: []
+user_id: trinaghosh

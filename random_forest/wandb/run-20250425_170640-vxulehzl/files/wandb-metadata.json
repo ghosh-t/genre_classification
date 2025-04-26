@@ -1,0 +1,58 @@
+{
+    "os": "macOS-14.2.1-x86_64-i386-64bit",
+    "python": "3.10.17",
+    "heartbeatAt": "2025-04-26T00:06:40.972610",
+    "startedAt": "2025-04-26T00:06:40.487392",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/trinaghosh/genre_classification/outputs/2025-04-25/17-05-29/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/trinaghosh/genre_classification/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "git@github.com:ghosh-t/genre_classification.git",
+        "commit": "d9ef2dfe491b020fd4bf2c6ea31a4b1f5446405b"
+    },
+    "email": null,
+    "root": "/Users/trinaghosh/genre_classification",
+    "host": "Trinas-MacBook-Air.local",
+    "username": "trinaghosh",
+    "executable": "/Users/trinaghosh/miniconda3/envs/mlflow-2ea614f397ed2ac2e8c7a6e4dd9e4fd56d6abe2c/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 13.41904067993164
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
